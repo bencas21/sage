@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Sage",
+    "slug": "sage",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "sage",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.sage.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
